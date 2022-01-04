@@ -1,6 +1,6 @@
 import React, { useEffect, useState ,useContext} from "react";
 import "./ProDescrip.css";
-import Catagories from "../Catagories/Catagories"
+
 import Button from "@mui/material/Button";
 import { useParams } from "react-router-dom";
 import CartContext from "../../context/cart/CartContext";
@@ -24,8 +24,8 @@ function ProDescrip(product) {
     setProductDetails(item[0]);
   }, []);
   return (
-    <div style={{display:"flex"}}>
-      <Catagories/>
+    <div style={{display:"flex", justifyContent:"center"}}>
+    
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <div className="image_section">
           <img

@@ -1,9 +1,10 @@
-import React from 'react'
-import "./Catagories.css"
+import React from "react";
+import "./Catagories.css";
+import { Link } from "react-router-dom";
 
 function Catagories() {
-    return (
-        <div className="mainpage">
+  return (
+    <div className="mainpage">
       <div className="catagories_section">
         <div className="catagories_title">
           <div className="catagories_icon">
@@ -25,7 +26,13 @@ function Catagories() {
           <p className="catagories_name"> Catagories</p>
         </div>
         <div className="catagories_list">
-          <button>All Mobiles</button>
+          <Link
+            path="/Mens
+        "
+          >
+            {" "}
+            <button>All Mobiles</button>
+          </Link>
           <button>Apple</button>
           <button>Oneplus</button>
           <button>Men's Fashion</button>
@@ -45,11 +52,8 @@ function Catagories() {
           <button>Motor Bike</button>
         </div>
       </div>
-      
-        
-      </div>
-    
-    )
+    </div>
+  );
 }
 
-export default Catagories
+export default Catagories;

@@ -1,7 +1,8 @@
-import products from "../data";
+import products from "../Components/Data/dataApple";
 import "./HomeScreen.css";
 import ProductCard from "../Components/ProductCard";
 import Catagories from "../Components/Catagories/Catagories";
+
 
 const HomeScreen = () => {
   return (

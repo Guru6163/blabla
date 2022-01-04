@@ -4,7 +4,7 @@ import HomeScreen from "./screens/HomeScreen";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Catagories from "./Components/Catagories/Catagories";
 import Header from "./Components/Header/Header";
-import ProDescrip from "./Components/ProDescrip/ProDescrip";
+import ProDescrip from "./Components/ProductDescription/ProDescrip";
 
 function App() {
   return (
