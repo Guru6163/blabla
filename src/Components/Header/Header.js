@@ -39,7 +39,7 @@ function Header() {
       </div>
 
       <div>
-        <input className="navbar__searchBox" type="text" />
+        <input placeholder="Search" className="navbar__searchBox" type="text" />
       </div>
       <div>
         <button>
