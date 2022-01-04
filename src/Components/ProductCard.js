@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
           <button
             style={{ marginTop: "10px" }}
             className="ProductCard__button"
-            onClick={() => addToCart(product)}
+           
           >
             View Product
           </button>
