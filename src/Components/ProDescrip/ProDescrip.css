@@ -1,0 +1,35 @@
+.placeholder__image {
+  height: 400px;
+  margin: 100px 150px;
+}
+.placeholder__description {
+  margin-top: 50px;
+}
+.textgap {
+  margin: 10px;
+}
+.price_tag {
+  font-size: 24px;
+  color: rgb(139, 4, 4);
+  font-weight: 600;
+}
+.bottom_one {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.placeholder__order {
+  text-align: center;
+}
+.order_here {
+  text-align: center;
+}
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button {
+  width: 300px;
+  height: 40px;
+}

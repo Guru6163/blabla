@@ -1,0 +1,32 @@
+.catagories_section {
+    width: 15vw;
+    background-color: #131a22;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    border-color: gray;
+    border-width: 1px 0px;
+  }
+  .catagories_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 25px;
+  }
+  .catagories_name {
+    margin: 5px;
+  }
+  .catagories_list {
+    align-items: center;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .mainpage {
+    display: flex;
+  }
+  

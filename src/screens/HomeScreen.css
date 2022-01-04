@@ -1,0 +1,14 @@
+.products__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 30px ;
+  gap: 12px;
+
+}
+.screen{
+  display: flex;
+
+  
+}

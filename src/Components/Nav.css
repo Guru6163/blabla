@@ -1,0 +1,146 @@
+nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #1d1f27;
+  padding: 0 20px;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #131a22;
+  font-family: "Work Sans", sans-serif;
+  color: aliceblue;
+  justify-content: space-evenly;
+}
+.nav__left {
+  
+  font-size: xx-large;
+  font-weight: 600;
+  color: rgb(217 119 6);
+}
+
+.nav__middle {
+  color: gray;
+
+  
+}
+
+.input__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.input__wrapper input {
+  width: 100%;
+  padding: 0 10px;
+  border: none;
+  display: block;
+}
+
+.input__wrapper input:focus,
+input:active {
+  outline: none;
+}
+
+.nav__right {
+ 
+}
+
+.cart__icon {
+  position: relative;
+  width: max-content;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart__icon i {
+  cursor: pointer;
+}
+
+.item__count {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background-color: red;
+  z-index: 10;
+  border-radius: 50%;
+  font-size: 10px;
+  height: 14px;
+  width: 14px;
+  top: -50%;
+  right: -50%;
+}
+.navbar__locatorImage {
+  margin-right: 5px;
+}
+.header__component {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #131a22;
+  font-family: "Work Sans", sans-serif;
+  color: aliceblue;
+  justify-content: space-evenly;
+  
+}
+.logo__bar {
+  font-size: xx-large;
+  font-weight: 600;
+  color: rgb(217 119 6);
+}
+.navbar__locatorImage {
+  margin-right: 5px;
+}
+.navbar__locator {
+  
+  display: flex;
+  align-items: center;
+}
+.navbar__location {
+  font-weight: bold;
+}
+
+.navbar__searchBox {
+  
+  width: 590px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+
+.user {
+  display: flex;
+  align-items: center;
+  
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  
+}
+.returns {
+  display: flex;
+  align-items: center;
+  
+}
+.cart__items {
+  margin-bottom: 25px;
+}
+
